@@ -1,12 +1,46 @@
-# React + Vite
+# 🎧 Audiobook Chapter Player
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based React app that lets users upload an audio file, define chapter segments, visualize waveforms, and play specific chapters with precision.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📤 Upload local audio files (`.mp3`, `.wav`)
+- ✂️ Define and manage chapter start/end segments
+- ▶️ Chapter-based playback with waveform visualization
+- 🌊 Waveform rendering using `wavesurfer.js`
+- 💾 Auto-save chapter/audio progress to `localStorage`
+- 🔁 Export and import chapter data as `.json`
+- 🧠 (Optional) Chapter auto-detection with GPT (planned)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Tech Stack
+
+- **Frontend**: React (Hooks, Context API)
+- **Audio**: HTML5 `<audio>` + `WaveSurfer.js`
+- **State Management**: React Context
+- **Styling**: Tailwind CSS
+
+---
+
+## 🖥️ Live Demo
+
+> [(LIVE)](https://audioplayer-three.vercel.app/)
+
+---
+
+## 🛠️ Setup Instructions
+
+```bash
+git clone https://github.com/varruunnn/Devify-Task.git
+cd Devify-Task
+npm i
+npm run dev
+```
+
+## VIDEO
+
+https://github.com/user-attachments/assets/890a0a0d-3283-44dc-93cc-43f5762a5a64
+
