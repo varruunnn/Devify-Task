@@ -25,21 +25,6 @@ A web-based React app that lets users upload an audio file, define chapter segme
 
 ---
 
-## 🖥️ Live Demo
-
-> [(LIVE)](https://audioplayer-three.vercel.app/)
-
----
-
-## 🛠️ Setup Instructions
-
-```bash
-git clone https://github.com/varruunnn/Devify-Task.git
-cd Devify-Task
-npm i
-npm run dev
-```
-
 ## VIDEO
 
 https://github.com/user-attachments/assets/890a0a0d-3283-44dc-93cc-43f5762a5a64
