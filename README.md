@@ -16,15 +16,6 @@ A web-based React app that lets users upload an audio file, define chapter segme
 
 ---
 
-## 📦 Tech Stack
-
-- **Frontend**: React (Hooks, Context API)
-- **Audio**: HTML5 `<audio>` + `WaveSurfer.js`
-- **State Management**: React Context
-- **Styling**: Tailwind CSS
-
----
-
 ## VIDEO
 
 https://github.com/user-attachments/assets/890a0a0d-3283-44dc-93cc-43f5762a5a64
